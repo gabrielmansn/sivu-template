@@ -116,39 +116,47 @@ CSV-data: `erkkimerkki,kampaamo,Aleksanterinkatu 20,040 0450902,kappe.gm@gmail.c
 - "Varaa aika" -nappi sinisessä, hover-efektillä
 - Palvelut-osio generoidulla kampaamosisällöllä
 
-## LOPPUTUOTE – NOUDATA TÄTÄ FORMAATTIA TARKASTI
+## TEKSTIN LAATU – KRIITTINEN VAATIMUS
 
-Toimita AINOASTAAN kolme tiedostoa alla olevassa formaatissa. ÄLÄ kirjoita mitään selitystekstejä tiedostojen väliin tai eteen.
+### KIELLETYT FRAASIT – älä käytä koskaan
+- "Laadukkaat tuotteet" toistuvana väitteenä
+- "Yksilöllinen palvelu" / "yksilöllinen kokemus"
+- "Ammattitaito" sellaisenaan ilman konkretiaa
+- "Luottamus rakennetaan..." / "joka käynnillä" / "joka kerta"
+- "Ei sitovia velvoitteita" / "Maksaton konsultaatio" (SaaS-kieltä, ei sovi pienyrityselle)
+- "Unohtumattomat [X]" / "täydellinen kokemus" / "parhaan lopputuloksen saavuttamiseksi"
+- "Kattavat palvelut" / "monipuoliset palvelut"
+- "Tervetuloa tutustumaan" / "Ota rohkeasti yhteyttä"
 
-Jokainen tiedosto merkitään näin:
+### TOISTO ON KIELLETTY
+Sama väite saa esiintyä sivustolla vain KERRAN. Jos kerrot kokemuksen vuodet herossa, älä mainitse niitä enää "Meistä"-osiossa tai trust-korteissa.
+
+### HYVÄ TEKSTI ON
+- **Konkreettista**: "leikkaus kestää noin 45 min" on parempi kuin "tehokas palvelu"
+- **Persoonallista**: pienyrityksen ääni, ei korporaatiomainen
+- **Suoraa**: lyhyet lauseet, ei täytesanoja eikä ylilatautuneita adjektiiveja
+- **Rehellistä**: älä lupaa mitä ei tiedetä asiakastiedoista
+
+### LUOTTAMUSSIGNAALIT
+Käytä vain pienyritykselle aidosti sopivia signaaleja:
+- ✓ Paikallisuus (kaupunki, asuinalue)
+- ✓ Erikoisosaaminen jos tiedossa
+- ✓ Konkreettinen yhteystapa (puhelin, Instagram)
+- ✗ EI SaaS-tyylisiä checkmark-listoja
+
+## TIEDOSTON FORMAATTI
+
+Tuotat tiedostot yksi kerrallaan tässä formaatissa:
 === tiedostonimi ===
 ```kieli
-[tiedoston sisältö]
-```
-
-Aloita VÄLITTÖMÄSTI ensimmäisellä tiedostolla.
-
-=== index.html ===
-```html
-[HTML-koodi tähän]
-```
-
-=== style.css ===
-```css
-[CSS-koodi tähän]
-```
-
-=== main.js ===
-```javascript
-[JavaScript-koodi tähän]
+[sisältö]
 ```
 
 ## TÄRKEÄÄ - RAJOITUKSET
 
-- Älä kirjoita mitään muuta kuin pyydetyt 3 tiedostoa
-- Älä selitä valintojasi
+- Älä kirjoita selitystekstejä koodin ympärille
 - Älä toista asiakkaan tietoja erikseen
-- Aloita suoraan === index.html === merkillä
+- Aloita suoraan === tiedostonimi === merkillä
 
 ---
 Alla on asiakkaan tilauslomakkeen tiedot CSV-muodossa. Lue sarakkeet ja käytä tietoja sellaisenaan:
