@@ -42,16 +42,14 @@ Jos `palvelut`- tai `hinnasto`-kentässä lukee "Generoi tähän Claudella." tai
 
 ## KUVIEN KÄSITTELY – TÄRKEÄÄ
 
-### Kuva-URL:ien käyttö
-- `kuva_urlit`-sarake sisältää **pilkulla eroteltu lista URL:eista**, kaikki muodossa `https://user-file-uploads.formspree.io/...`
-- Käytä URL:it **sellaisenaan** suoraan `<img src="...">` -attribuuttiin – älä muuta mitään
-- Älä luo erillistä kuvat-kansiota tai viittaa paikallisiin polkuihin
-- Esimerkki: `<img src="https://user-file-uploads.formspree.io/abc123/kuva.jpg" alt="Kampaamo">`
-
-### Logo-tunnistus
-- Jos jokin `kuva_urlit`-listan URL sisältää sanan **"logo"** tai **"Logo"** (esim. `Logo.svg`, `logo.png`), se on yrityksen logo
-- Käytä logo-URL navigaation/headerin logona `<img>`-tagina
-- Muut URL:it ovat sisältökuvia: käytä niitä hero-sektiossa, galleriassa tai sisältöosioissa
+### Kuva-analysointi
+- Saat asiakkaan kuvat visuaalisesti nähtäväksesi — jokainen kuva on merkitty sitä vastaavalla URL:illa
+- **Analysoi jokainen kuva** ja sijoita se sisällön perusteella:
+  - Logo (yritystunnus, ikoni, tekstilogo) → navigaatiopalkki vasempaan ylänurkkaan `<img>`-tagina
+  - Laajakuva tilasta tai ympäristöstä → hero-osion taustakuva
+  - Henkilö- tai tiimikuva → Meistä-osio
+  - Työnäyte, tuote tai käsityö → galleria tai palvelut-osio
+- Käytä jokaisen kuvan kohdalla **täsmälleen sitä URL:ia** joka on mainittu kuvan yhteydessä
 
 ### Jos kuvia ei ole
 - Jos `kuvien_maara` on 0 tai `kuva_urlit` on tyhjä: rakenna sivusto ilman oikeita kuvia (CSS-gradientteja, SVG-kuvituksia tai placeholder-kuvakehyksiä)
