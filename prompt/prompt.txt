@@ -21,8 +21,8 @@ Saat asiakkaan tiedot CSV-muodossa viestin lopussa. Alla sarakkeiden selitykset:
 | Sarake | Merkitys |
 |--------|---------|
 | yritys_nimi | Yrityksen virallinen nimi |
-| toimiala | Toimiala (kampaamo / kauneushoitola / kynsiteknikko / hieroja / pt / muu) |
-| osoite | Toimipisteen osoite |
+| toimiala | Toimiala (kampaamo / kauneushoitola / kynsiteknikko / hieroja / pt / lvi / sahko / rakennus / maanrakennus / puuseppa / maalaus / muu) |
+| osoite | Toimipisteen osoite tai kotipaikka |
 | puhelin | Puhelinnumero |
 | email | Sähköpostiosoite |
 | tyyli | Valittu sivustotyyli (klassinen / moderni / luksus / kotoisa / elegantti / creative) |
@@ -36,6 +36,10 @@ Saat asiakkaan tiedot CSV-muodossa viestin lopussa. Alla sarakkeiden selitykset:
 | lisatoiveet | Asiakkaan erityistoiveet |
 | kuvien_maara | Ladattujen kuvien kokonaismäärä (numero) |
 | kuva_urlit | Pilkulla eroteltu lista kuva-URL:eista – KÄYTÄ SELLAISENAAN `<img src="...">` -attribuuttiin |
+| palvelualue | Maantieteellinen toimialue (esim. "Tampere ja lähikunnat") – rakennusalan yrityksillä |
+| patevyydet | Pätevyydet ja sertifikaatit (esim. "Sähköpätevyys 2, Kylmäainekortti") – rakennusalan yrityksillä |
+| referenssit | Viitekohteet ja merkittävät asiakkaat – rakennusalan yrityksillä |
+| yrityksen_koko | Henkilöstömäärä (yksinyrittaja / 2-5 / 6-10 / yli10) – rakennusalan yrityksillä |
 
 ### Generoi-arvot
 Jos `palvelut`-kentässä lukee "Generoi tähän Claudella." tai kenttä on tyhjä, **luo realistinen, uskottava sisältö** toimialan ja yrityksen nimen perusteella. Älä jätä placeholdereita tai lorem ipsumia.
@@ -77,6 +81,7 @@ Tulkitse väriteemaa luovasti äläkä kirjaimellisesti. Käytä sävyjä, gradi
 - **Kauneushoitola**: Hoitojen kestot, tuotesuositukset, lahjakortti-CTA
 - **Kynsiteknikko**: Kuvagalleria töistä, ajanvarauslinkki, hintaluokat
 - **Hieroja**: Hoitomuodot, linkki ajanvaraukseen, lahjakortit, Kela-korvaustiedot jos relevantti
+- **LVI / Sähkö / Rakennus / Maanrakennus**: Tarjouspyyntölomake yhteydenoton sijaan, toimialue näkyvästi, pätevyydet ja sertifikaatit omana osionaan, viitekohteet/referenssit galleriaksi tai listaksi – ei ajanvarauskalenteria
 
 ## TEKNISET VAATIMUKSET
 
