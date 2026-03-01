@@ -45,7 +45,9 @@ Saat asiakkaan tiedot CSV-muodossa viestin lopussa. Alla sarakkeiden selitykset:
 Jos `palvelut`-kentässä lukee "Generoi tähän Claudella." tai kenttä on tyhjä, **luo realistinen, uskottava sisältö** toimialan ja yrityksen nimen perusteella. Älä jätä placeholdereita tai lorem ipsumia.
 
 ### Hinnasto – EI MUUTOKSIA SISÄLTÖÖN
-Jos `hinnasto`-kentässä on sisältöä, käytä se **täsmälleen sellaisenaan** – älä muuta hintoja, palvelunimiä tai kuvauksia millään tavalla. Ainoastaan jäsennä sisältö HTML-taulukoksi tai listaksi. Jos hinnasto on tyhjä tai siinä lukee "Generoi tähän Claudella.", luo realistinen hinnasto toimialalle.
+Jos `hinnasto`-kentässä on sisältöä, käytä se **täsmälleen sellaisenaan** – älä muuta hintoja, palvelunimiä tai kuvauksia millään tavalla. Ainoastaan jäsennä sisältö HTML-taulukoksi tai listaksi.
+
+**Jos `hinnasto` on tyhjä, sisältää "_(ei tietoja)_" tai on muuten ilman sisältöä: JÄT HINNASTO-OSIO KOKONAAN POIS sivustolta.** Älä keksi hintoja, "tyypillisiä hinta-arvioita", "hintataso"-osioita tai mitään vastaavaa. Ei hinnasto-navigointilinkkiä, ei hinnasto-sektiota. Sivusto toimii ilman hinnastoa.
 
 ## KUVIEN KÄSITTELY – TÄRKEÄÄ
 
@@ -122,6 +124,12 @@ Tulkitse väriteemaa luovasti äläkä kirjaimellisesti. Käytä sävyjä, gradi
 - "läpinäkyvä hinnoittelu" / "reilu hinta" / "kilpailukykyinen hinta"
 - "Voit luottaa" / "turvallinen valinta" / "ei sido mihinkään"
 - "Palvelemme sydämellä" / "Välitämme asiakkaistamme"
+
+### SUOMEN KIELI – TARKKUUS
+- Kirjoita huolellista, oikeakielistä suomea – tarkista taivutusmuodot ennen kirjoittamista
+- Rakennusalan termit: "kalusteiden vaihto" (EI "kalustojen vaihto"), "parkettilattia" (EI "kalakuviparkeetti"), "pintaremontti", "saneeraus", "tasoitetyöt"
+- Älä käytä genetiivimuotoa väärin: "ovien asennus" (EI "oven asennus"), "ikkunoiden uusinta" (EI "ikkunan uusinta")
+- Älä yhdistä sanoja väärin tai keksi uusia yhdyssanoja
 
 ### KIELLETYT VÄLIMERKIT JA RAKENTEET
 - Ajatusviiva (–) MISSÄ TAHANSA: kirjoita kaksi erillistä lausetta tai poista toinen puoli
