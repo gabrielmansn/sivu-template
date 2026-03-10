@@ -38,6 +38,7 @@ Saat asiakkaan tiedot CSV-muodossa viestin lopussa. Alla sarakkeiden selitykset:
 | kuva_urlit | Pilkulla eroteltu lista kuva-URL:eista – KÄYTÄ SELLAISENAAN `<img src="...">` -attribuuttiin |
 | palvelualue | Maantieteellinen toimialue (esim. "Tampere ja lähikunnat") – rakennusalan yrityksillä |
 | patevyydet | Pätevyydet ja sertifikaatit (esim. "Sähköpätevyys 2, Kylmäainekortti") – rakennusalan yrityksillä |
+| ajanvaraus_url | URL asiakkaan sähköiseen ajanvarausjärjestelmään (esim. Timma, Fresha, Bokio) – vain palvelualan yrityksillä |
 | referenssit | Viitekohteet ja merkittävät asiakkaat – rakennusalan yrityksillä |
 | yrityksen_koko | Henkilöstömäärä (yksinyrittaja / 2-5 / 6-10 / yli10) – rakennusalan yrityksillä |
 
@@ -137,6 +138,13 @@ img.cert-logo-img:not([src]), img.cert-logo-img[src=""] { display: none; }
 - Nimi, puhelin/sähköposti, viesti -kentät
 - `action`-attribuuttiin: `https://formspree.io/f/LOMAKE_ID` (placeholder, asiakas vaihtaa itse)
 - Onnistumis-/virheviesti JavaScriptillä
+
+### Ajanvarausjärjestelmä
+Jos `ajanvaraus_url`-kentässä on arvo (ei tyhjä):
+- **Lisää "Varaa aika" -nappi** navigaatiopalkkiin ja hero-osioon — `href="[ajanvaraus_url]"` target="_blank"
+- **ÄLÄ lisää** integroitua HTML-yhteydenottolomaketta (form-elementti) — asiakas käyttää ajanvarausjärjestelmää yhteydenoton sijaan
+- Yhteystiedot-osio (puhelin, sähköposti, osoite) voi silti olla, mutta ei lomaketta
+- "Varaa aika" -nappi on sivuston pääkonversio: näkyvä, brändin värinen, selkeä
 
 ## TEKSTIN LAATU – KRIITTINEN VAATIMUS
 
